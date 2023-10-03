@@ -10,7 +10,8 @@ def test_accuracy():
 
     # Unpack the tuple
     X_test, y_test = test_data
-
+    # TODO: should there be scaling added here?
+    
     # Compute accuracy of classifier
     acc = clf.score(X_test, y_test)
 
